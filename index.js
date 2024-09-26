@@ -105,7 +105,7 @@ let ucetambolunenler = [],
 // 3a çözümü
 
 let numbers = sayilar;
-numbers.sort();
+numbers.sort(function (a, b) { return a - b });
 enkucuk = numbers[0];
 enbuyuk = numbers[numbers.length - 1];
 
